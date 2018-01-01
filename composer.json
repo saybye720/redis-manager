@@ -1,5 +1,5 @@
 {
-    "name": "encore/redis-manager",
+    "name": "bigface/redis-manager",
     "description": "Redis manager for laravel",
     "type": "library",
     "keywords": ["laravel", "redis", "manager"],
