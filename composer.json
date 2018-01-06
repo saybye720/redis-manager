@@ -1,0 +1,40 @@
+{
+    "name": "bigface/redis-manager",
+    "description": "Redis manager for laravel",
+    "type": "library",
+    "keywords": ["laravel", "redis", "manager"],
+    "homepage": "https://github.com/saybye720/redis-manager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "z-song",
+            "email": "zosong@126.com"
+        },
+        {
+            "name": "bigface",
+            "email": "saybye720@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/contracts": "~5.5",
+        "illuminate/support": "~5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "laravel/laravel": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BF\\RedisManager\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BF\\RedisManager\\RedisManagerServiceProvider"
+            ]
+
+        }
+    }
+}
